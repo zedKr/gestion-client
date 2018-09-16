@@ -1,38 +1,34 @@
-
-
 <div class="uk-section uk-section-large uk-section-muted">
-  <div class="uk-container">
 
-    <div uk-grid>
+  <div class="uk-flex-center" uk-grid>
 
+    <div class="uk-card uk-card-default uk-card-body">
 
-      <div class="uk-grid-item-match">
-        <div class="uk-card uk-card-default uk-card-body">
+      <h2>Login <span uk-icon="icon: sign-in; ratio: 2"></span></h2>
 
-          <span uk-icon="icon: sign-in; ratio: 2" ></span>
+      <form>
 
-          <form>
-
-          <div class="uk-margin">
-            <div class="uk-inline">
-              <span class="uk-form-icon" uk-icon="icon: user"></span>
-              <input type="text" placeholder="Enter username" class="uk-input">
-            </div>
+        <div class="uk-margin">
+          <div class="uk-inline">
+            <span class="uk-form-icon" uk-icon="icon: user"></span>
+            <input type="text" placeholder="Enter username" class="uk-input">
           </div>
-
-          <div class="uk-margin">
-            <div class="uk-inline">
-              <span class="uk-form-icon" uk-icon="icon: lock"></span>
-              <input type="password" placeholder="Enter password" class="uk-input">
-            </div>
-          </div>
-
-          </form>
-
         </div>
-      </div>
+
+        <div class="uk-margin">
+          <div class="uk-inline">
+            <span class="uk-form-icon" uk-icon="icon: lock"></span>
+            <input type="password" placeholder="Enter password" class="uk-input">
+          </div>
+        </div>
+
+        <button (click)="submit()" class="uk-button uk-width-1-1 uk-button-primary" >login</button>
+
+      </form>
 
     </div>
+
   </div>
+
 </div>
 

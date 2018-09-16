@@ -1,11 +1,7 @@
 
-.container-fluid {
+.uk-section {
   height: 100vh;
-  height-min:100vh;
-  padding-top: 100px;
+  max-height:100vh;
 }
 
-.card-body {
-  padding: 40px 30px;
 
-}

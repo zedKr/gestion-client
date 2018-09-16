@@ -1,0 +1,8 @@
+.uk-sidebar {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 250px;
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+}
